@@ -1,0 +1,25 @@
+{
+  "name": "bbdts",
+  "version": "1.0.0",
+  "description": "pw with bbd",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "author": "Thamsanqa Mhlongo",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.50.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

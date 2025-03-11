@@ -1,0 +1,35 @@
+{
+    "cookiesAcceptButton": {
+        "locator": "#onetrust-accept-btn-handler",
+        "description": "cookies Accept Button"
+    },
+    "searchTopRightIcon":{
+        "locator": ".icon.icon-search",
+        "description": "search Top Right Icon"
+    },
+    "searchInput":{
+        "locator": "#stage > .topStage #search",
+        "description": "search input"
+    },
+    "searchInputHeader":{
+        "locator": ".popup-top #search",
+        "description": "search input on the header"
+    },
+    "searchSubmitButton":{
+        "locator": "#stage > .topStage .button.button-search",
+        "description": "search submit button"
+    },
+    "searchSubmitButtonHeader":{
+        "locator": ".popup-top .button.button-search",
+        "description": "search submit button"
+    },
+    "searchResultFilterList":{
+        "locator": "#searchResultFilterList",
+        "description": "search Result Filter List"
+    },
+    "firstSearchResult":{
+        "locator": ".list-generic.search-result-list ul > li:nth-child(1)",
+        "description": "first Search Result"
+    }
+    
+}
