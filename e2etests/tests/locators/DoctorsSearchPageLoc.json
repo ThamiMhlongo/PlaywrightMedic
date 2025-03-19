@@ -1,0 +1,22 @@
+{
+    "doctorMenu": {
+        "locator": "#nav .links > .bottomLinksWrapper .icon.icon-doctor",
+        "description": "doctor menu"
+    },
+    "doctorSearchInput":{
+        "locator": "#filterKeyword",
+        "description": "doctor search input"
+    },
+    "doctorSearchSubmitButton":{
+        "locator": ".icon.icon-big-search",
+        "description": "doctor Search Submit Button"
+    },
+    "firstSearchResult":{
+        "locator": "ul.doctor-badges > li:nth-child(1) h3",
+        "description": "first Search Result"
+    },
+    "thirdSearchResult":{
+        "locator": "ul.doctor-badges > li:nth-child(3) h3",
+        "description": "third Search Result"
+    }
+}
