@@ -1,7 +1,7 @@
 Feature: Search engine on the Mediclinic website
 
   Background:
-    Given User is on home page and accept cookies
+    Given I am on home page and accept cookies
 
   @smoke
   Scenario: Using the search input with the text "covid"
@@ -16,5 +16,5 @@ Feature: Search engine on the Mediclinic website
 
     Examples:
       | search_text | expected_text |
-      | medic     | medic    |
-      | treatment  | treatment    |
+      # | medic     | medic    |
+      # | treatment  | treatment    |

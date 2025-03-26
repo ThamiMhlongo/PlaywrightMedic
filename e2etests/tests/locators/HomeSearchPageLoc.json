@@ -7,6 +7,10 @@
         "locator": ".icon.icon-search",
         "description": "search Top Right Icon"
     },
+    "doctorsMenuItem":{
+        "locator": "#nav .links > ul .icon-doctor",
+        "description": "doctors menu item"
+    },
     "searchInput":{
         "locator": "#stage > .topStage #search",
         "description": "search input"

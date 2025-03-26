@@ -3,12 +3,12 @@
         "locator": "#nav .links > .bottomLinksWrapper .icon.icon-doctor",
         "description": "doctor menu"
     },
-    "doctorSearchInput":{
+    "doctorsSearchInput":{
         "locator": "#filterKeyword",
         "description": "doctor search input"
     },
     "doctorSearchSubmitButton":{
-        "locator": ".icon.icon-big-search",
+        "locator": ".button-search-filter",
         "description": "doctor Search Submit Button"
     },
     "firstSearchResult":{

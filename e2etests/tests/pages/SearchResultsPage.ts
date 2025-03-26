@@ -1,10 +1,10 @@
 import { Page } from "playwright"
 //import * as loginPageLoc from "../locators/loginpageloc.json"
-import * as searchPageLoc from "../locators/SearchPageLoc.json"
+import * as searchPageLoc from "../locators/HomeSearchPageLoc.json"
 import BasePage from "./BasePage"
 //import dotenv from "dotenv"
 
-export default class HomeMedicPage extends BasePage{
+export default class SearchResultsPage extends BasePage{
 
     readonly firstSearchResult = this.page.locator('.list-generic.search-result-list ul > li:nth-child(1)')
 
